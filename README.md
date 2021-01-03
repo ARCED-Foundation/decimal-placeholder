@@ -1,4 +1,4 @@
-# text-placeholder
+# decimal-placeholder
 
 ![Download now](extras/preview-images/Placeholder-text.jpg)  ![Download now](extras/preview-images/Placeholder-text-dynamic.jpg) 
 
@@ -6,39 +6,37 @@
 
 |<img src="extras/preview-images/Placeholder-text.jpg" width="100px">|
 |:---:|
-|Customized text inside placeholder of text type field|
+|Customized text inside placeholder of decimal type field|
 
 ## Description
 
-Use this field plug-in to use customized text in the placeholder of text type field.
+Use this field plug-in to use customized text in the placeholder of decimal type field.
 
-For this field plug-in, enter the text for the `text` parameter (see **Parameters** below), and that text will be shown into the field's placeholder. It can only be used with text field type.
+For this field plug-in, enter the text for the `text` parameter (see **Parameters** below), and that text will be shown into the field's placeholder. It can only be used with decimal field type.
 
-This plug-in was developed based on the [baseline-text](https://github.com/surveycto/baseline-text/blob/master/README.md) field-plug-in, therefore, also supports the additional improvements in the [baseline-text](https://github.com/surveycto/baseline-text/blob/master/README.md) field-plug-in.
+This plug-in was developed based on the [baseline-decimal](https://github.com/surveycto/baseline-decimal/blob/master/README.md) field-plug-in, therefore, also supports the additional improvements in the [baseline-decimal](https://github.com/surveycto/baseline-decimal/blob/master/README.md) field-plug-in.
 
 
-[![Download now](extras/preview-images/download-button.png)](https://github.com/ARCED-Foundation/text-placeholder/raw/main/text-placeholder.fieldplugin.zip)
+[![Download now](extras/preview-images/download-button.png)](https://github.com/ARCED-Foundation/decimal-placeholder/raw/main/decimal-placeholder.fieldplugin.zip)
 
 ## Default SurveyCTO feature support
 
 | Feature / Property | Support |
 | --- | --- |
-| Supported field type(s) | `text`|
+| Supported field type(s) | `decimal`|
 | Default values | Yes |
-| Custom constraint message | Uses default behavior |
-| Custom required message | Uses default behavior |
-| Read only | Yes (shows the current value, if present) |
+| Constraint message | Uses default behavior |
+| Required message | Uses default behavior |
+| Read only | Yes *(shows the current value, if present)* |
 | media:image | Yes |
 | media:audio | Yes |
 | media:video | Yes |
-| `number` appearance | Yes |
-| `numbers_decimal` appearance | Yes |
-| `numbers_phone` appearance | Yes |
+| `show-formatted` appearance | No |
 
 
 ## How to use
 
-**To use this field plug-in as-is**, just download the [text-placeholder.fieldplugin.zip](text-placeholder.fieldplugin.zip) file from this repo, and attach it to your form.
+**To use this field plug-in as-is**, just download the [text-placeholder.fieldplugin.zip](decimal-placeholder.fieldplugin.zip) file from this repo, and attach it to your form.
 
 To create your own field plug-in using this as a template, follow these steps:
 
