@@ -1,6 +1,6 @@
 # decimal-placeholder
 
-![Download now](extras/preview-images/Placeholder-text.jpg)  ![Download now](extras/preview-images/Placeholder-text-dynamic.jpg) 
+![Download now](extras/preview-images/Placeholder-text-dynamic.jpg) 
 
 
 
