@@ -53,7 +53,7 @@ To create your own field plug-in using this as a template, follow these steps:
 
 There is one parameter, `text`, which is the custom text. The following example can be used in *appearance* for a text field:
 
-    custom-text-placeholder(text='Please write the full name')
+    custom-decimal-placeholder(text='Please write the height in feet')
 
 ## More resources
 
