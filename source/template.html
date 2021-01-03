@@ -1,3 +1,4 @@
+<!-- This is the field label from the form definition -->
 <div class="label default-question-text-size" dir="auto">{{{LABEL}}}</div>
 
 <!-- If there is an image specified in the media:image column, show it here -->
@@ -28,10 +29,11 @@
     {{#CURRENT_ANSWER}}
     <input 
         type="text" 
+        pattern = "[0-9]*"
+        inputmode = "decimal"
         value="{{CURRENT_ANSWER}}" 
-        id="text-field" 
+        id="decimal-field" 
         class="response default-answer-text-size" 
-        dir="auto"
         readonly
     />
     {{/CURRENT_ANSWER}}
@@ -39,16 +41,13 @@
 
 <!-- if the field is not marked read only, show the input box always. -->
 {{^READONLY}}
-   <div id="dyn-text"></div>
-   <input 
-        type='text'
-        value='{{CURRENT_ANSWER}}' 
-        id='text-field' 
-        class='response default-answer-text-size notreadonly' 
-        dir='auto'
-        placeholder="" 
-    />
+<input 
+    type="text" 
+    pattern = "[0-9]*" 
+    inputmode="decimal"
+    value="{{CURRENT_ANSWER}}" 
+    id="decimal-field" 
+    class="response default-answer-text-size"
+    placeholder="Your answer here..." 
+/>
 {{/READONLY}}
-
-
-
