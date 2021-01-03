@@ -51,7 +51,7 @@ To create your own field plug-in using this as a template, follow these steps:
 
 ## Parameters
 
-There is one parameter, `text`, which is the custom text. The following example can be used in *appearance* for a text field:
+There is one parameter, `text`, which is the custom text. The following example can be used in *appearance* for a decimal field type:
 
     custom-decimal-placeholder(text='Please write the height in feet')
 
