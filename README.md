@@ -1,10 +1,10 @@
 # decimal-placeholder
 
-![Download now](extras/preview-images/Placeholder-text-dynamic.jpg) 
+![Download now](extras/preview-images/Placeholder-decimal-dynamic.jpg) 
 
 
 
-|<img src="extras/preview-images/Placeholder-text.jpg" width="100px">|
+|<img src="extras/preview-images/Placeholder-decimal-dynamic.jpg" width="100px">|
 |:---:|
 |Customized text inside placeholder of decimal type field|
 
