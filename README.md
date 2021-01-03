@@ -36,7 +36,7 @@ This plug-in was developed based on the [baseline-decimal](https://github.com/su
 
 ## How to use
 
-**To use this field plug-in as-is**, just download the [text-placeholder.fieldplugin.zip](decimal-placeholder.fieldplugin.zip) file from this repo, and attach it to your form.
+**To use this field plug-in as-is**, just download the [decimal-placeholder.fieldplugin.zip](decimal-placeholder.fieldplugin.zip) file from this repo, and attach it to your form.
 
 To create your own field plug-in using this as a template, follow these steps:
 
